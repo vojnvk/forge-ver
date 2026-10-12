@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.1",
-  "released": "2026-10-12T20:40:12.979Z",
-  "notes": "A real person with a small portrait (Ramón Mercader, Heydrich, Marie Curie…) is shown by their photo, not by a silhouette; small stills are laid whole instead of stretched.",
+  "version": "2.0.2",
+  "released": "2026-10-12T21:04:57.674Z",
+  "notes": "A person whose name redirects to someone else's Wikipedia article (Sylvia Ageloff to Ramón Mercader) is never shown with that other person's photo.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.1-win32-x64.tgz",
-      "size": 5610899,
-      "sha256": "2bbf669b98251748c011269884f843b6fbb55a637d223f8c0de6d0431195fee6",
+      "file": "forge-2.0.2-win32-x64.tgz",
+      "size": 5611044,
+      "sha256": "56f52aa96a0aee9594239f984983a948fe602190b6cc929036945dc21595d41d",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.1/forge-2.0.1-win32-x64.tgz.001",
-          "size": 5610899,
-          "sha256": "2bbf669b98251748c011269884f843b6fbb55a637d223f8c0de6d0431195fee6"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.2/forge-2.0.2-win32-x64.tgz.001",
+          "size": 5611044,
+          "sha256": "56f52aa96a0aee9594239f984983a948fe602190b6cc929036945dc21595d41d"
         }
       ]
     }
