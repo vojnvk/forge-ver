@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.0",
-  "released": "2026-10-12T17:31:31.360Z",
-  "notes": "Forge 2.0.0: 3D rooms with people, person cards in every look, self-updating, and Codex (ChatGPT subscription) as a way to connect the AI.",
+  "version": "2.0.1",
+  "released": "2026-10-12T20:40:12.979Z",
+  "notes": "A real person with a small portrait (Ramón Mercader, Heydrich, Marie Curie…) is shown by their photo, not by a silhouette; small stills are laid whole instead of stretched.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.0-win32-x64.tgz",
-      "size": 5610812,
-      "sha256": "0dded37a2ca24bf7167c04797239254d9ae92b33f14f0ff8e12c5e9a26e041e0",
+      "file": "forge-2.0.1-win32-x64.tgz",
+      "size": 5610899,
+      "sha256": "2bbf669b98251748c011269884f843b6fbb55a637d223f8c0de6d0431195fee6",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.0/forge-2.0.0-win32-x64.tgz.001",
-          "size": 5610812,
-          "sha256": "0dded37a2ca24bf7167c04797239254d9ae92b33f14f0ff8e12c5e9a26e041e0"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.1/forge-2.0.1-win32-x64.tgz.001",
+          "size": 5610899,
+          "sha256": "2bbf669b98251748c011269884f843b6fbb55a637d223f8c0de6d0431195fee6"
         }
       ]
     }
