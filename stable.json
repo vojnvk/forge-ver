@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "version": "2.0.0",
-  "released": "2026-10-11T21:35:19.717Z",
+  "released": "2026-10-12T08:29:29.162Z",
   "notes": "Forge 2.0.0",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
       "file": "forge-2.0.0-win32-x64.tgz",
-      "size": 5607243,
-      "sha256": "73f58d521b5c4714e66f534df401154b028d1479ae8830194d88244114ef9db0",
+      "size": 5607818,
+      "sha256": "808cb61e5e88accf7787dde8db092e07211d7ff8bee6baf79752de8b7cb3ab7c",
       "parts": [
         {
           "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.0/forge-2.0.0-win32-x64.tgz.001",
-          "size": 5607243,
-          "sha256": "73f58d521b5c4714e66f534df401154b028d1479ae8830194d88244114ef9db0"
+          "size": 5607818,
+          "sha256": "808cb61e5e88accf7787dde8db092e07211d7ff8bee6baf79752de8b7cb3ab7c"
         }
       ]
     }
