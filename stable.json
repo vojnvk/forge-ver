@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.3",
-  "released": "2026-10-12T21:44:16.372Z",
-  "notes": "A film no longer dies when the GPU runs short of memory: runs are sized from measured use, and a run without room is rendered one segment at a time.",
+  "version": "2.0.0",
+  "released": "2026-10-13T12:46:50.765Z",
+  "notes": "Forge 2.0.0: 3D rooms with people, a person's own photo on their card in every look, self-updating, Codex as a way to connect the AI, captions on/off in New Film and the editor, and only controls that work.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.3-win32-x64.tgz",
-      "size": 5611559,
-      "sha256": "1ee4ab4ff8c0f7e85190a26cf0535418e765fa679e4785ff063a2e993bc90f21",
+      "file": "forge-2.0.0-win32-x64.tgz",
+      "size": 5610537,
+      "sha256": "3ed24710e7123f40b931bf8f9e1184c6d9f7732cf6f31e15a74783c9521ad1f9",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.3/forge-2.0.3-win32-x64.tgz.001",
-          "size": 5611559,
-          "sha256": "1ee4ab4ff8c0f7e85190a26cf0535418e765fa679e4785ff063a2e993bc90f21"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.0/forge-2.0.0-win32-x64.tgz.001",
+          "size": 5610537,
+          "sha256": "3ed24710e7123f40b931bf8f9e1184c6d9f7732cf6f31e15a74783c9521ad1f9"
         }
       ]
     }
