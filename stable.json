@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.0",
-  "released": "2026-10-13T12:46:50.765Z",
-  "notes": "Forge 2.0.0: 3D rooms with people, a person's own photo on their card in every look, self-updating, Codex as a way to connect the AI, captions on/off in New Film and the editor, and only controls that work.",
+  "version": "2.0.1",
+  "released": "2026-10-13T18:25:43.211Z",
+  "notes": "Channels work on your own channels (none built in): ideas, Script DNA, niche bends, thumbnails, analytics. Every AI33 voice to browse and listen to. Language search. Promo in New Film, with your own ad. 3D showcases of real things. Highlighted pages.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.0-win32-x64.tgz",
-      "size": 5610537,
-      "sha256": "3ed24710e7123f40b931bf8f9e1184c6d9f7732cf6f31e15a74783c9521ad1f9",
+      "file": "forge-2.0.1-win32-x64.tgz",
+      "size": 5656547,
+      "sha256": "ccf817126757b36b91a77e0e6e62ec187b55737bc091ed95d30f4f35b627fb2a",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.0/forge-2.0.0-win32-x64.tgz.001",
-          "size": 5610537,
-          "sha256": "3ed24710e7123f40b931bf8f9e1184c6d9f7732cf6f31e15a74783c9521ad1f9"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.1/forge-2.0.1-win32-x64.tgz.001",
+          "size": 5656547,
+          "sha256": "ccf817126757b36b91a77e0e6e62ec187b55737bc091ed95d30f4f35b627fb2a"
         }
       ]
     }
