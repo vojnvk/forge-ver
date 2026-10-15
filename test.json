@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.1",
-  "released": "2026-10-13T18:24:19.162Z",
-  "notes": "Channels work on your own channels (none built in): ideas, Script DNA, niche bends, thumbnails, analytics. Every AI33 voice to browse and listen to. Language search. Promo in New Film, with your own ad. 3D showcases of real things. Highlighted pages.",
+  "version": "2.0.2",
+  "released": "2026-10-15T09:07:16.953Z",
+  "notes": "Delší filmy už nepadají: scénář dostane čas podle délky filmu (dřív 'Claude did not answer within 600 s'), dlouhý zvukový mix se předá ffmpegu souborem (dřív 'spawn ENAMETOOLONG'). Nový styl Docu-thriller.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.1-win32-x64.tgz",
-      "size": 5656539,
-      "sha256": "a1a972e407f5f1d7ddc6b881cbc80b3b9f5d2b76ca0c2b4d25c7fd17c3a09fa2",
+      "file": "forge-2.0.2-win32-x64.tgz",
+      "size": 6431864,
+      "sha256": "dc51bd43d6d33e9c8ccf2d3d60ef20e3e3138240cc28012028e3a1ed36602585",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.1/forge-2.0.1-win32-x64.tgz.001",
-          "size": 5656539,
-          "sha256": "a1a972e407f5f1d7ddc6b881cbc80b3b9f5d2b76ca0c2b4d25c7fd17c3a09fa2"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.2/forge-2.0.2-win32-x64.tgz.001",
+          "size": 6431864,
+          "sha256": "dc51bd43d6d33e9c8ccf2d3d60ef20e3e3138240cc28012028e3a1ed36602585"
         }
       ]
     }
