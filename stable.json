@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.7",
-  "released": "2026-10-20T17:29:57.073Z",
-  "notes": "Videos download with their sound on every machine: Forge now tells the downloader where its ffmpeg is, which is what puts the picture and the sound together.",
+  "version": "2.0.8",
+  "released": "2026-10-20T17:37:36.953Z",
+  "notes": "Forge's own ffmpeg is now on the path of every tool it runs, so videos download with their sound on machines that have no ffmpeg installed.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.7-win32-x64.tgz",
-      "size": 24060775,
-      "sha256": "daa15da3ecd599de274796445fef4b8ca7f405f20f5d61fffd1b5cdcb2a1a3a8",
+      "file": "forge-2.0.8-win32-x64.tgz",
+      "size": 24060959,
+      "sha256": "d243a22bc9a0d3d8a9c289d6fd834959f1e255d1498be3ae0954aa41e4c7c56f",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.7/forge-2.0.7-win32-x64.tgz.001",
-          "size": 24060775,
-          "sha256": "daa15da3ecd599de274796445fef4b8ca7f405f20f5d61fffd1b5cdcb2a1a3a8"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.8/forge-2.0.8-win32-x64.tgz.001",
+          "size": 24060959,
+          "sha256": "d243a22bc9a0d3d8a9c289d6fd834959f1e255d1498be3ae0954aa41e4c7c56f"
         }
       ]
     }
