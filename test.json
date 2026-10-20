@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.2",
-  "released": "2026-10-15T09:07:16.953Z",
-  "notes": "Delší filmy už nepadají: scénář dostane čas podle délky filmu (dřív 'Claude did not answer within 600 s'), dlouhý zvukový mix se předá ffmpegu souborem (dřív 'spawn ENAMETOOLONG'). Nový styl Docu-thriller.",
+  "version": "2.0.3",
+  "released": "2026-10-20T15:26:39.519Z",
+  "notes": "Translate can download again: Forge keeps its own yt-dlp and refreshes it when YouTube changes. A video that arrived with no sound, and Shorts that arrived at 480p, come back right.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.2-win32-x64.tgz",
-      "size": 6431864,
-      "sha256": "dc51bd43d6d33e9c8ccf2d3d60ef20e3e3138240cc28012028e3a1ed36602585",
+      "file": "forge-2.0.3-win32-x64.tgz",
+      "size": 6432955,
+      "sha256": "e8eb77754ef256582c7391591a8a099eb2406ff05e315ab0df07bd8ec9ccd3be",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.2/forge-2.0.2-win32-x64.tgz.001",
-          "size": 6431864,
-          "sha256": "dc51bd43d6d33e9c8ccf2d3d60ef20e3e3138240cc28012028e3a1ed36602585"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.3/forge-2.0.3-win32-x64.tgz.001",
+          "size": 6432955,
+          "sha256": "e8eb77754ef256582c7391591a8a099eb2406ff05e315ab0df07bd8ec9ccd3be"
         }
       ]
     }
