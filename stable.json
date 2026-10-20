@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "version": "2.0.3",
-  "released": "2026-10-20T15:05:12.798Z",
+  "released": "2026-10-20T15:38:47.132Z",
   "notes": "Translate can download again: Forge keeps its own yt-dlp and refreshes it when YouTube changes. A video that arrived with no sound, and Shorts that arrived at 480p, come back right.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
       "file": "forge-2.0.3-win32-x64.tgz",
-      "size": 6432945,
-      "sha256": "08be194e1811e135c9a5315ba0104116ce9a4581f12a6986b47cc1d155ca2a5c",
+      "size": 6432949,
+      "sha256": "0e89fd240679b1248362e8e14538414abd061e55bf5450ad4473fd5a7a706f87",
       "parts": [
         {
           "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.3/forge-2.0.3-win32-x64.tgz.001",
-          "size": 6432945,
-          "sha256": "08be194e1811e135c9a5315ba0104116ce9a4581f12a6986b47cc1d155ca2a5c"
+          "size": 6432949,
+          "sha256": "0e89fd240679b1248362e8e14538414abd061e55bf5450ad4473fd5a7a706f87"
         }
       ]
     }
