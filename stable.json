@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.5",
-  "released": "2026-10-20T16:32:27.660Z",
-  "notes": "A video kept from an earlier attempt that had no sound is now downloaded again, so a translation that kept failing with 'no sound to translate' goes through.",
+  "version": "2.0.6",
+  "released": "2026-10-20T16:43:17.327Z",
+  "notes": "A link copied out of a chat, which wraps onto two lines, is one link again — before, half of it reached the downloader and the translation stopped with a 404.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.5-win32-x64.tgz",
-      "size": 24056189,
-      "sha256": "c9f2ef135b5613b0af9c3be33a37a003fc62bb4781f781ea2594044557f7ad3b",
+      "file": "forge-2.0.6-win32-x64.tgz",
+      "size": 24060155,
+      "sha256": "52f459d593a0a64bfa3e2dd220d87df38f710eb3b47c6fad069f4bbee96d99e9",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.5/forge-2.0.5-win32-x64.tgz.001",
-          "size": 24056189,
-          "sha256": "c9f2ef135b5613b0af9c3be33a37a003fc62bb4781f781ea2594044557f7ad3b"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.6/forge-2.0.6-win32-x64.tgz.001",
+          "size": 24060155,
+          "sha256": "52f459d593a0a64bfa3e2dd220d87df38f710eb3b47c6fad069f4bbee96d99e9"
         }
       ]
     }
