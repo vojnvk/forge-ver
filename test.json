@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.3-test.1",
-  "released": "2026-10-20T15:40:00.370Z",
-  "notes": "Same fix as stable 2.0.3: Translate can download again (Forge keeps its own yt-dlp and refreshes it), and Shorts come back at full size.",
+  "version": "2.0.4-test.1",
+  "released": "2026-10-20T16:16:03.178Z",
+  "notes": "Same as stable 2.0.4: Forge brings yt-dlp with the update, so Translate can download again and Shorts come back at full size.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.3-test.1-win32-x64.tgz",
-      "size": 6432998,
-      "sha256": "e3fd892db73980f777fdd460e9229ec058ec687ba83fb61b35c22c704496e9d6",
+      "file": "forge-2.0.4-test.1-win32-x64.tgz",
+      "size": 24056063,
+      "sha256": "eb65a11c3da7ab873233f4b0c14fc61fdfcac2df89268672f1fd8df5131903e4",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.3-test.1/forge-2.0.3-test.1-win32-x64.tgz.001",
-          "size": 6432998,
-          "sha256": "e3fd892db73980f777fdd460e9229ec058ec687ba83fb61b35c22c704496e9d6"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.4-test.1/forge-2.0.4-test.1-win32-x64.tgz.001",
+          "size": 24056063,
+          "sha256": "eb65a11c3da7ab873233f4b0c14fc61fdfcac2df89268672f1fd8df5131903e4"
         }
       ]
     }
