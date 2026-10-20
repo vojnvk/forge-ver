@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.4",
-  "released": "2026-10-20T16:06:58.554Z",
-  "notes": "Translate can download again. Forge now brings yt-dlp with the update itself, so a video that arrived with no sound comes back right, and Shorts download at full size.",
+  "version": "2.0.5",
+  "released": "2026-10-20T16:32:27.660Z",
+  "notes": "A video kept from an earlier attempt that had no sound is now downloaded again, so a translation that kept failing with 'no sound to translate' goes through.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.4-win32-x64.tgz",
-      "size": 24056050,
-      "sha256": "f641eaf9a56ea1210cf621c8a15cd0052f41a9e158329df43ca6a6d6f9570936",
+      "file": "forge-2.0.5-win32-x64.tgz",
+      "size": 24056189,
+      "sha256": "c9f2ef135b5613b0af9c3be33a37a003fc62bb4781f781ea2594044557f7ad3b",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.4/forge-2.0.4-win32-x64.tgz.001",
-          "size": 24056050,
-          "sha256": "f641eaf9a56ea1210cf621c8a15cd0052f41a9e158329df43ca6a6d6f9570936"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.5/forge-2.0.5-win32-x64.tgz.001",
+          "size": 24056189,
+          "sha256": "c9f2ef135b5613b0af9c3be33a37a003fc62bb4781f781ea2594044557f7ad3b"
         }
       ]
     }
