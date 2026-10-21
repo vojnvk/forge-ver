@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.8",
-  "released": "2026-10-20T17:37:36.953Z",
-  "notes": "Forge's own ffmpeg is now on the path of every tool it runs, so videos download with their sound on machines that have no ffmpeg installed.",
+  "version": "2.0.9",
+  "released": "2026-10-21T16:49:42.723Z",
+  "notes": "Translating a Short now draws one word at a time over the subtitles already in the video, with those blurred away. A film can be deleted from the queue and the translated video downloaded straight from its card. Forge keeps a log of what it did, and a machine short of memory finishes the last stage slowly instead of failing.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.8-win32-x64.tgz",
-      "size": 24060959,
-      "sha256": "d243a22bc9a0d3d8a9c289d6fd834959f1e255d1498be3ae0954aa41e4c7c56f",
+      "file": "forge-2.0.9-win32-x64.tgz",
+      "size": 24088498,
+      "sha256": "5b2db22ceab316d861aa8eac3ede795ee0dfefc425d39372ae6ab51ec1199c84",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.8/forge-2.0.8-win32-x64.tgz.001",
-          "size": 24060959,
-          "sha256": "d243a22bc9a0d3d8a9c289d6fd834959f1e255d1498be3ae0954aa41e4c7c56f"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.9/forge-2.0.9-win32-x64.tgz.001",
+          "size": 24088498,
+          "sha256": "5b2db22ceab316d861aa8eac3ede795ee0dfefc425d39372ae6ab51ec1199c84"
         }
       ]
     }
