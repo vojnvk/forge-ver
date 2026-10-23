@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.10",
-  "released": "2026-10-22T09:05:58.846Z",
-  "notes": "Translating no longer sits at Voices when AI33 goes quiet: the recordings it has already made are waited for instead of being ordered — and paid for — a second time.",
+  "version": "2.0.11",
+  "released": "2026-10-23T14:33:31.892Z",
+  "notes": "Translating no longer gives up when AI33's speech to text is slow: it is waited for while AI33 is working on it, and when AI33 does not answer the speech is read on this PC instead (Whisper, installed the first time). Recordings already made are kept, and nothing is paid for twice.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.10-win32-x64.tgz",
-      "size": 24088767,
-      "sha256": "8ac777960cf3ea43d50fb971801d4594596495fea0726b7382beca6c9eba7a34",
+      "file": "forge-2.0.11-win32-x64.tgz",
+      "size": 24092181,
+      "sha256": "a5e597ef6f92e27d9d4f6ce543dcf15961fd2d03c466ffcb45655cefe97ca2ba",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.10/forge-2.0.10-win32-x64.tgz.001",
-          "size": 24088767,
-          "sha256": "8ac777960cf3ea43d50fb971801d4594596495fea0726b7382beca6c9eba7a34"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.11/forge-2.0.11-win32-x64.tgz.001",
+          "size": 24092181,
+          "sha256": "a5e597ef6f92e27d9d4f6ce543dcf15961fd2d03c466ffcb45655cefe97ca2ba"
         }
       ]
     }
