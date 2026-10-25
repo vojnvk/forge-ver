@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.11",
-  "released": "2026-10-23T14:33:31.892Z",
-  "notes": "Translating no longer gives up when AI33's speech to text is slow: it is waited for while AI33 is working on it, and when AI33 does not answer the speech is read on this PC instead (Whisper, installed the first time). Recordings already made are kept, and nothing is paid for twice.",
+  "version": "2.0.12",
+  "released": "2026-10-25T17:43:56.910Z",
+  "notes": "Fixes only, nothing changes how Forge or your films look. Translating a long video no longer fails at its very end (\"Cannot allocate memory\"). Promos are cut into the film on PCs without an NVIDIA encoder. A film whose render hangs frees itself instead of holding up every render after it. When AI33's queue is full, jobs wait their turn instead of failing. The Whisper fallback works in the installed app. Codex pictures, Wikisource highlights and YouTube downloads fail less often, and when Pexels' hourly limit is used up the film says so (a free Pixabay key in Settings gives it a second source).",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.11-win32-x64.tgz",
-      "size": 24092181,
-      "sha256": "a5e597ef6f92e27d9d4f6ce543dcf15961fd2d03c466ffcb45655cefe97ca2ba",
+      "file": "forge-2.0.12-win32-x64.tgz",
+      "size": 24099683,
+      "sha256": "e916bff47728692e780dfcee30a5a35c7f0cf6ff999a5dabaa3bd0d2ba00d807",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.11/forge-2.0.11-win32-x64.tgz.001",
-          "size": 24092181,
-          "sha256": "a5e597ef6f92e27d9d4f6ce543dcf15961fd2d03c466ffcb45655cefe97ca2ba"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.12/forge-2.0.12-win32-x64.tgz.001",
+          "size": 24099683,
+          "sha256": "e916bff47728692e780dfcee30a5a35c7f0cf6ff999a5dabaa3bd0d2ba00d807"
         }
       ]
     }
