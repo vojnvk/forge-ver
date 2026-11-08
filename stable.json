@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.14",
-  "released": "2026-11-03T09:45:23.415Z",
-  "notes": "Oprava: u přeložených Shorts se původní titulky najdou i tam, kde se kamera pořád hýbe — rozmažou se a nový text stojí přesně na jejich místě.",
+  "version": "2.0.15",
+  "released": "2026-11-08T19:41:13.819Z",
+  "notes": "Opravy: render hotového filmu už nespadne kvůli Edge, chybějícímu klipu mapy, webové stránky nebo 3D scény, ani kvůli záběrům, které na sebe časově nenavazují. Film se vyrenderuje a jde exportovat; co se nepodařilo nakreslit, ukáže místo sebe kartu.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.14-win32-x64.tgz",
-      "size": 24101930,
-      "sha256": "80ed08bfdd9e04f3a3c0b04b41adf9e130f4894c961b96768a8b872e68a1cf3a",
+      "file": "forge-2.0.15-win32-x64.tgz",
+      "size": 24102718,
+      "sha256": "d5935034be2e18c8009b36fe3bdc0071f9331474763b1adbdcefbfd3b32a29a9",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.14/forge-2.0.14-win32-x64.tgz.001",
-          "size": 24101930,
-          "sha256": "80ed08bfdd9e04f3a3c0b04b41adf9e130f4894c961b96768a8b872e68a1cf3a"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.15/forge-2.0.15-win32-x64.tgz.001",
+          "size": 24102718,
+          "sha256": "d5935034be2e18c8009b36fe3bdc0071f9331474763b1adbdcefbfd3b32a29a9"
         }
       ]
     }
