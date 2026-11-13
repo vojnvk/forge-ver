@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.16",
-  "released": "2026-11-08T20:00:12.025Z",
-  "notes": "Oprava: render hotového filmu už nespadne hned na začátku s chybou „ffmpeg … No such file or directory“, když mezitím zmizela barevná tabulka looku z mezipaměti. Forge si ji teď vytvoří znovu a film se vyrenderuje i exportuje bez restartu.",
+  "version": "2.0.17",
+  "released": "2026-11-13T09:35:02.260Z",
+  "notes": "Oprava: když Claude odmítne napsat scénář k zadanému tématu, Forge už z jeho poznámky neudělá krátký film. Zkusí to ještě jednou, a když scénář znovu nevznikne, zastaví se a napíše proč, abys mohl upravit název nebo poznámky.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.16-win32-x64.tgz",
-      "size": 24102720,
-      "sha256": "b5a630572b47ba46fe159c1353237b411b363dbbd23433cfc4f0e24132a986b0",
+      "file": "forge-2.0.17-win32-x64.tgz",
+      "size": 24103032,
+      "sha256": "11bc9c1d53fa91880c3a08156cd671eccffc608f02c245592140bc37a8957650",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.16/forge-2.0.16-win32-x64.tgz.001",
-          "size": 24102720,
-          "sha256": "b5a630572b47ba46fe159c1353237b411b363dbbd23433cfc4f0e24132a986b0"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.17/forge-2.0.17-win32-x64.tgz.001",
+          "size": 24103032,
+          "sha256": "11bc9c1d53fa91880c3a08156cd671eccffc608f02c245592140bc37a8957650"
         }
       ]
     }
