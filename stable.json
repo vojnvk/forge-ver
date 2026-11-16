@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.18",
-  "released": "2026-11-13T09:49:49.410Z",
-  "notes": "Oprava: u vlastního scénáře se délka filmu nastaví sama podle scénáře, počítaná tempem zvoleného hlasu. Dřív se použila délka vybraná zvlášť (výchozích 20 minut), i když scénář měl třeba hodinu. Scénář delší než hodina nejde spustit a Forge napíše proč.",
+  "version": "2.0.19",
+  "released": "2026-11-16T19:56:26.711Z",
+  "notes": "Oprava: místa filmu, která grafická karta vykreslila jako zelenou plochu, Forge nyní pozná a vykreslí znovu (a když to selže podruhé, vykreslí je procesorem). U už hotového filmu se zelená místa opraví při příštím vykreslení: stačí ve filmu cokoli změnit a dát Render.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.18-win32-x64.tgz",
-      "size": 24104421,
-      "sha256": "46ce4142e720ced2938c84217370ca2df27e90367959239d2869337d99ffd606",
+      "file": "forge-2.0.19-win32-x64.tgz",
+      "size": 24104915,
+      "sha256": "073f471c8bcbc4f1a3b99c0126ef82b1586f86aa1c97d2c8c14776015abced2d",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.18/forge-2.0.18-win32-x64.tgz.001",
-          "size": 24104421,
-          "sha256": "46ce4142e720ced2938c84217370ca2df27e90367959239d2869337d99ffd606"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.19/forge-2.0.19-win32-x64.tgz.001",
+          "size": 24104915,
+          "sha256": "073f471c8bcbc4f1a3b99c0126ef82b1586f86aa1c97d2c8c14776015abced2d"
         }
       ]
     }
