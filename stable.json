@@ -1,21 +1,28 @@
 {
   "schema": 1,
-  "version": "2.0.20",
-  "released": "2026-11-17T11:05:54.773Z",
-  "notes": "Oprava: když grafická karta vykresluje obraz jako zelenou plochu, Forge po prvním takovém místě dokreslí zbytek filmu procesorem a příště už kreslí rovnou procesorem, místo aby každé místo kreslil třikrát. Render už se také nemůže zaseknout na celou noc, když se proces ffmpeg zasekne v ovladači grafiky. Pokud render stojí, zavři a znovu otevři Forge: pokračuje tam, kde skončil.",
+  "version": "2.1.0",
+  "channel": "stable",
+  "released": "2026-11-17T14:11:10.665Z",
+  "notes": "Forge 2.1.0: nový vzhled celé aplikace. Novinka: v editoru je tlačítko Send feedback. Když se ti film nelíbí, napiš, co je špatně, a pošle se nám i s logem filmu (klíče nikdy). Opravy: Pexels a Pixabay už se nepřetěžují ani když děláš víc filmů najednou, takže je méně karet místo záběrů; Claude se spolehlivě spustí i u dlouhých zadání; render se nezasekne na grafice, která kreslí zeleně, ani na plném disku.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.20-win32-x64.tgz",
-      "size": 24105426,
-      "sha256": "e168306e7f30d4960e14a5d2acfe180336e3251557940d6f3cb112ce23e29348",
+      "file": "forge-2.1.0-win32-x64.tgz",
+      "size": 79327041,
+      "sha256": "72ad3d67a11319fb142ed2ab16f83b8d0905d0123707c9296a3e36a8714b4e67",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.20/forge-2.0.20-win32-x64.tgz.001",
-          "size": 24105426,
-          "sha256": "e168306e7f30d4960e14a5d2acfe180336e3251557940d6f3cb112ce23e29348"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.0/forge-2.1.0-win32-x64.tgz.001",
+          "size": 47185920,
+          "sha256": "60738d4a59ae3129c375e3d852b6e371a1e14b9f6969c843849142349ebb7fdd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.0/forge-2.1.0-win32-x64.tgz.002",
+          "size": 32141121,
+          "sha256": "86bf8c254f30554e7d017be009164690effce415a0880655bf7400210f017a67"
         }
       ]
     }
-  }
+  },
+  "signature": "JNr7vj1MZa7ez9pV/0ZptC6zwgMbTpkvt3xeOGDcfPDcDebcV/dU+RzRjF9372XrIgbmZDxXkXszUTuz4GkpDQ=="
 }
