@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "2.0.19",
-  "released": "2026-11-16T19:56:26.711Z",
-  "notes": "Oprava: místa filmu, která grafická karta vykreslila jako zelenou plochu, Forge nyní pozná a vykreslí znovu (a když to selže podruhé, vykreslí je procesorem). U už hotového filmu se zelená místa opraví při příštím vykreslení: stačí ve filmu cokoli změnit a dát Render.",
+  "version": "2.0.20",
+  "released": "2026-11-17T11:05:54.773Z",
+  "notes": "Oprava: když grafická karta vykresluje obraz jako zelenou plochu, Forge po prvním takovém místě dokreslí zbytek filmu procesorem a příště už kreslí rovnou procesorem, místo aby každé místo kreslil třikrát. Render už se také nemůže zaseknout na celou noc, když se proces ffmpeg zasekne v ovladači grafiky. Pokud render stojí, zavři a znovu otevři Forge: pokračuje tam, kde skončil.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.0.19-win32-x64.tgz",
-      "size": 24104915,
-      "sha256": "073f471c8bcbc4f1a3b99c0126ef82b1586f86aa1c97d2c8c14776015abced2d",
+      "file": "forge-2.0.20-win32-x64.tgz",
+      "size": 24105426,
+      "sha256": "e168306e7f30d4960e14a5d2acfe180336e3251557940d6f3cb112ce23e29348",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.19/forge-2.0.19-win32-x64.tgz.001",
-          "size": 24104915,
-          "sha256": "073f471c8bcbc4f1a3b99c0126ef82b1586f86aa1c97d2c8c14776015abced2d"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.0.20/forge-2.0.20-win32-x64.tgz.001",
+          "size": 24105426,
+          "sha256": "e168306e7f30d4960e14a5d2acfe180336e3251557940d6f3cb112ce23e29348"
         }
       ]
     }
