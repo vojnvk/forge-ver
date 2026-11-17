@@ -1,28 +1,28 @@
 {
   "schema": 1,
-  "version": "2.1.0",
+  "version": "2.1.1",
   "channel": "stable",
-  "released": "2026-11-17T14:11:10.665Z",
-  "notes": "Forge 2.1.0: nový vzhled celé aplikace. Novinka: v editoru je tlačítko Send feedback. Když se ti film nelíbí, napiš, co je špatně, a pošle se nám i s logem filmu (klíče nikdy). Opravy: Pexels a Pixabay už se nepřetěžují ani když děláš víc filmů najednou, takže je méně karet místo záběrů; Claude se spolehlivě spustí i u dlouhých zadání; render se nezasekne na grafice, která kreslí zeleně, ani na plném disku.",
+  "released": "2026-11-17T14:57:21.129Z",
+  "notes": "Forge 2.1.1: nové animované záběry ve filmech. Když vypravěč řekne letopočty, datum, čas, rozměr nebo vzdálenost, film je ukáže jako animaci (osa let, kalendář, stopky, měřítko a další), i se zvukem.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.1.0-win32-x64.tgz",
-      "size": 79327041,
-      "sha256": "72ad3d67a11319fb142ed2ab16f83b8d0905d0123707c9296a3e36a8714b4e67",
+      "file": "forge-2.1.1-win32-x64.tgz",
+      "size": 79378604,
+      "sha256": "33726641cb7009dbb18dc12c9d90a7c2a64ae4922515d319f5e9a874ec1c9948",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.0/forge-2.1.0-win32-x64.tgz.001",
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.1/forge-2.1.1-win32-x64.tgz.001",
           "size": 47185920,
-          "sha256": "60738d4a59ae3129c375e3d852b6e371a1e14b9f6969c843849142349ebb7fdd"
+          "sha256": "5f3bc03a55cd80b83e06fcc794f49a955ceaa8d4d1b9ef8c032d44e6f35ba31e"
         },
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.0/forge-2.1.0-win32-x64.tgz.002",
-          "size": 32141121,
-          "sha256": "86bf8c254f30554e7d017be009164690effce415a0880655bf7400210f017a67"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.1/forge-2.1.1-win32-x64.tgz.002",
+          "size": 32192684,
+          "sha256": "5689e8249f13c4eb9a9df37fe7411297f525f7f4f81976990477c6d268de1df9"
         }
       ]
     }
   },
-  "signature": "JNr7vj1MZa7ez9pV/0ZptC6zwgMbTpkvt3xeOGDcfPDcDebcV/dU+RzRjF9372XrIgbmZDxXkXszUTuz4GkpDQ=="
+  "signature": "vZWnUjcck/zZ0RHRr0xbzpHz+yKF3/O95rWVOgg5K3jPjU7/LP65JGTyZztP3MrL3iBDFpB9xU9vkn3cLD/vAA=="
 }
