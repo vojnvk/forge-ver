@@ -1,28 +1,28 @@
 {
   "schema": 1,
-  "version": "2.1.1",
+  "version": "2.1.2",
   "channel": "stable",
-  "released": "2026-11-17T14:57:21.129Z",
-  "notes": "Forge 2.1.1: nové animované záběry ve filmech. Když vypravěč řekne letopočty, datum, čas, rozměr nebo vzdálenost, film je ukáže jako animaci (osa let, kalendář, stopky, měřítko a další), i se zvukem.",
+  "released": "2026-11-18T11:42:00.076Z",
+  "notes": "Forge 2.1.2: opravené přerenderování. Editor už u některých filmů neukazuje pořád „Re-render změn“ i po vyrenderování; vlastní záběr, který se k obrázku nehodí, se vynechá jednou provždy a render je rychlejší.",
   "packs": {
     "win32-x64": {
       "shell": "electron-44",
-      "file": "forge-2.1.1-win32-x64.tgz",
-      "size": 79378604,
-      "sha256": "33726641cb7009dbb18dc12c9d90a7c2a64ae4922515d319f5e9a874ec1c9948",
+      "file": "forge-2.1.2-win32-x64.tgz",
+      "size": 79378778,
+      "sha256": "204951af542af316e8ed5404a3ba6cb85a897dfaa94d0fbebbd060a9ddd7e3f2",
       "parts": [
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.1/forge-2.1.1-win32-x64.tgz.001",
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.2/forge-2.1.2-win32-x64.tgz.001",
           "size": 47185920,
-          "sha256": "5f3bc03a55cd80b83e06fcc794f49a955ceaa8d4d1b9ef8c032d44e6f35ba31e"
+          "sha256": "6fd0bdc794921a5c87e314cf93048168958a0c3f798ad1c0edaa48590c22cb69"
         },
         {
-          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.1/forge-2.1.1-win32-x64.tgz.002",
-          "size": 32192684,
-          "sha256": "5689e8249f13c4eb9a9df37fe7411297f525f7f4f81976990477c6d268de1df9"
+          "url": "https://raw.githubusercontent.com/vojnvk/forge-ver/pack-2.1.2/forge-2.1.2-win32-x64.tgz.002",
+          "size": 32192858,
+          "sha256": "9deff6cb20622e2100150b45da1c964cde175300e01adfccab734d9be654b7cb"
         }
       ]
     }
   },
-  "signature": "vZWnUjcck/zZ0RHRr0xbzpHz+yKF3/O95rWVOgg5K3jPjU7/LP65JGTyZztP3MrL3iBDFpB9xU9vkn3cLD/vAA=="
+  "signature": "aYylHw9jGXEd2VmC0ZfX3azujO/q0+uS/PZSJl6RXLpEeGYytxnl4SLJ2UV8XAOSbnnnnkFpEKmXykMqTnvUAg=="
 }
